@@ -1,0 +1,42 @@
+
+.md1{
+    /* border:2px solid black; */
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.md2{
+    border: 2px solid black;
+    border-radius: 30px;
+    
+    width:350px;
+    height: 420px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+h4{
+    text-align: justify;
+    margin-left: 10px;
+    
+}
+
+h2{
+    margin-left: 20px;
+}
+img{
+    margin-left: 80px;
+    width:120px;
+
+}
+.btn{
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(76, 137, 211);
+    color: rgb(18, 17, 17);
+    width:120px;
+    height:30px;
+    font-size: 20px;
+}
