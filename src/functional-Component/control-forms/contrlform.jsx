@@ -25,7 +25,7 @@ const ControlForm =()=>{
     }
     const PasswordHandler=(event)=>{
        
-        const password=event.target.value 
+        const password=event.target.value  
         setpassword(password)
         console.log(password)
      
@@ -53,12 +53,14 @@ const ControlForm =()=>{
             password:password,
             confirm_password:password2
         }
-        const newArray=[...userdetails,obj]
-        setuserdetails(newArray)
-        if(userdetails.confirm_password===userdetails.password){
+       
+        if(obj.confirm_password===obj.password){
+            const newArray=[...userdetails,obj]
+            setuserdetails(newArray)
            alert("login succesfully")
+
         }else{
-            return false
+            return alert("password not matched")
         }
     }
 

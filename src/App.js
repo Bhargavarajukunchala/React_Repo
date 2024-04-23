@@ -1,12 +1,12 @@
-import Roouter from "./browserRouter/Navigation_Stack";
-
+import Navi from "./Routingg/Navigation";
 
 function App() {
   return (
     <>
-   <Roouter/>
+    <Navi/>
     </>
   )
 }
 
 export default App;
+  

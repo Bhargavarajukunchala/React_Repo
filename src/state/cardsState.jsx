@@ -152,9 +152,9 @@ class Cards extends  Component{
                         <h4 >{Eachobj.title}</h4>
                         <h2>Category: {Eachobj.category}</h2>
                         <h2>Price: {Eachobj.price}</h2>
-                        <button className="btn" onClick={()=>this.DeleteCard(index)} >Delete</button>
-                        <button className="btn" onClick={()=>this.UpdateCard(index)}>Update</button>
-                        
+                        {/* <button className="btn" onClick={()=>DeleteCard(index)} >Delete</button>
+                        <button className="btn" onClick={()=>UpdateCard(index)}>Update</button>
+                         */}
                         </div>
                       )
                        

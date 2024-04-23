@@ -24,7 +24,7 @@ class ProductList extends Component{
         })
     }
 
-    Delete=(index)=>{
+  Delete=(index)=>{
         const NewProducts=this.state.Products.filter((Eachobj,ind)=>ind!==index)
         this.setState({
             Products:NewProducts
